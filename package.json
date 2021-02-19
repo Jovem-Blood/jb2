@@ -1,0 +1,20 @@
+{
+  "name": "jb2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.3.1",
+    "emoji-extract-sentiment": "^1.0.1",
+    "eslint": "^7.9.0",
+    "luxon": "^1.25.0"
+  },
+  "devDependencies": {}
+}
