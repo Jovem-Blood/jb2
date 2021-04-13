@@ -4,8 +4,10 @@ const client = new Discord.Client();
 const con = require('./config.json');
 const prefix = con.prefix;
 const axios = require('./api');
-const emojiExtract = require('emoji-extract-sentiment');
+require('./events')(client, Discord);
 
+
+/*
 client.commands = new Discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
@@ -95,4 +97,5 @@ client.on('message', (message) => {
     }
 
 });
+*/
 client.login(con.token);
